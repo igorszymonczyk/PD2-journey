@@ -1,5 +1,9 @@
 # PD2-journey
+<<<<<<< HEAD
 TEST 2
+=======
+TEST change
+>>>>>>> main
 
 Working toward the Salesforce Platform Developer II certification and mid-level developer skills. This repository holds the projects and notes I build along the way.
 
