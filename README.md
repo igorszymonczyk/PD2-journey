@@ -1,18 +1,44 @@
-# Salesforce DX Project: Next Steps
+# PD2-journey
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Working toward the Salesforce Platform Developer II certification and mid-level developer skills. This repository holds the projects and notes I build along the way.
 
-## How Do You Plan to Deploy Your Changes?
+Target: PD2 certified by end of November 2026.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## About
 
-## Configure Your Salesforce DX Project
+Salesforce Developer with a Computer Science engineering background, currently certified as Platform Developer I. I'm using this repo to work through the PD2 requirements with real, hands-on projects rather than tutorials alone.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Certification progress
 
-## Read All About It
+Platform Developer II requires the PD1 credential (done), a multiple-choice exam, and three Trailhead superbadges:
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- [ ] Superbadge: Apex Specialist
+- [ ] Superbadge: Advanced Apex Specialist
+- [ ] Superbadge: Data Integration Specialist
+- [ ] PD2 exam (60 questions, 70% to pass)
+
+Planned next: JavaScript Developer I, then Agentforce Specialist.
+
+## Projects
+
+### 1. Booking Manager (in progress)
+A small end-to-end app for managing reservations. Covers custom objects and relationships, Apex triggers with a handler pattern, asynchronous Apex, an LWC interface, and unit tests.
+
+### 2. External API Integration (planned)
+Integrating Salesforce with an external service via REST. Covers callouts, Named Credentials, OAuth, Platform Events, error handling, and callout mocking in tests.
+
+### 3. Agentforce Assistant (planned)
+An Agentforce agent grounded on Salesforce data. Covers Agentforce topics and actions, Prompt Builder, and Data Cloud fundamentals.
+
+## Tech stack
+
+Apex, Lightning Web Components, SOQL/SOSL, Salesforce CLI, Git, REST APIs.
+
+## Repository structure
+
+```
+pd2-journey/
+  force-app/main/default/   Salesforce source (classes, triggers, lwc, objects)
+  projects/                 Notes and docs per project
+  notes/                    Study notes and exam-topic summaries
+```
